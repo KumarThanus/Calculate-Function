@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cantainer">
+        <div class="main-wrapper">
+            <h1 id="display"></h1>
+        <div class="input-wrapper">
+                <label for="input-1"> first number</label>
+                <input type="number" id="input-1" name="snum1" autofocus>
+        </div>
+        <div class="input-wrapper">
+                <label for="input-2"> last number</label>
+                <input type="number" id="input-2" name="snum2" autofocus>
+         </div>
+        <div class="btn-wrapper">
+            <button onclick="add()" class="btn1" > ADD +</button>
+            <button onclick="sub()" class="btn2" > SUB -</button>
+            <button onclick="mul()" class="btn3" > MUL *</button>
+            <button onclick="div()" class="btn4" > DIV ÷</button>
+        </div> 
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
